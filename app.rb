@@ -1,6 +1,6 @@
 class App < Sinatra::Base
 
-  get "/helloworld" do
+  get "/" do
     "Hello World"
   end
 
